@@ -38,3 +38,29 @@ console.log(typeof myFunction);
 //Number    == Number
 //string    == String
 //Function  == Function
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// (copy)Stack (primitive) ,(Reference) Heap (Non- primitive)
+
+let myYoutubename = "yo yo honey singh"
+let anothername = myYoutubename
+anothername = "namoh studio"
+// console.log(myYoutubename);
+// console.log(anothername);
+
+
+let userone = {
+    email: "user@google.com",
+    upi: "xyz@ybl"
+}
+
+let usertwo = userone;
+
+usertwo.email= "ajay@google.com"
+console.log(userone.email);
+console.log(usertwo.email);
+
+
+
